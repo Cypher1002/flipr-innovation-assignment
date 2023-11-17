@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Oswald:wght@300&family=Titan+One&display=swap');
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  margin: 20px;
+  background-color: #C2FCF7;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+label {
+  display: inline-block;
+  margin-top: 10px;
+  color: #555;
+}
+
+select {
+  margin: 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#winners-list {
+  margin-top: 20px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.table tr:hover {
+  background-color: #f5f5f5;
+}
+
+#multiple-winners {
+  margin-top: 20px;
+}
+
+#individual-details {
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}

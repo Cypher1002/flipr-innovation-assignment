@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nobel Prize Winners</title>
+  <link rel="stylesheet" href="nobel.css">
+</head>
+<body>
+  <h1>Nobel Prize Winners</h1>
+
+  <!-- Filter dropdowns -->
+  <label for="category">Category:</label>
+  <select id="category" onchange="displayWinners()"></select>
+
+  <label for="year">Year:</label>
+  <select id="year" onchange="displayWinners()"></select>
+
+  <!-- Prize winners list -->
+  <div id="winners-list" class="table-container">
+    <table class="table">
+      <tbody>
+        <!-- Table rows with prize information will be dynamically inserted here -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Section for Nobel laureates who won more than once -->
+  <h2>Multiple Nobel Prize Winners</h2>
+  <div id="multiple-winners"></div>
+
+  <!-- Display individual laureate details -->
+  <h2>Individual Laureate Details</h2>
+  <div id="individual-details"></div>
+
+  <!-- Button to trigger individual laureate details -->
+  <button onclick="displayIndividualLaureateDetails()">Get Individual Laureate Details</button>
+
+  <script src="noobel.js"></script>
+</body>
+</html>
